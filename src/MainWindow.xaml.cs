@@ -34,14 +34,11 @@ partial class MainWindow : Window
         {
             WasCircle = true;
             MyPainter.DrawCircle(Points2Circle.Calculator.CalculateCircle(col[0], col[1], col[2]));
-
             Title = "";
             foreach(var i in col)
             {
                 Title += $"({i}) ";
             }
-
-            return;
         }
     }
 
